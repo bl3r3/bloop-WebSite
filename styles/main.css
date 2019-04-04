@@ -13,6 +13,10 @@ body{
 
 }
 
+hr{
+  background: white;
+}
+
 .title-section{
   text-align: center;
   font-size: 3em;
@@ -60,20 +64,80 @@ body{
 }
 
 
+/*SERVICIOS*/
+
+.wrapper{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+  color: #29a9e1;
+}
+
+.diseño, .stages, .fotos, .video, .licor{
+  grid-row: 1;
+  text-align: center;
+  justify-content: center;
+}
+
+.catering, .postres, .mobiliario, .cotillon, .seguridad{
+  grid-row: 2;
+  text-align: center;
+  justify-content: center;
+}
+
+
+
+/*SERVICIOS*/
+
+/*BLOG*/
+
+.blog{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 15px;
+  grid-auto-rows: minmax(100px, auto)
+}
+ .post{
+  text-align: center;
+  justify-content: center;
+ }
 
 
 
 
+ /*BLOG*/
+
+ /*CONTACTO*/
+
+ label{
+  margin-top: 15px;
+ }
+
+.form-control{
+  background:#030819;
+  border: 2px solid  #29a9e1;
+  border-radius: 0; 
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: none;
+  color: white;
+}
 
 
 
 
-
-
-
-
-
-
+li.menu-footer{
+  list-style: none;
+  margin-left: -40px;
+  text-decoration: none;
+}
 
 
 
