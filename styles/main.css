@@ -1,3 +1,109 @@
+@font-face{
+font-family: "BebasKai";
+src: url("fonts/BebasKai.ttf");
+}
+
+
+body{
+  background: #030819;
+  color: white;
+  margin: 0 auto;
+  padding: 0;
+  font-family: ;
+
+}
+
+.title-section{
+  text-align: center;
+  font-size: 3em;
+}
+
+.color-blue{
+  color: #29a9e1;
+}
+
+
+.menu{
+  background: #030819;
+  color: white;
+}
+
+.nav-link{
+  color: white;
+}
+
+
+
+.intro-header{
+  margin-top: 150px;
+}
+
+.intro{
+  font-size: 4em;
+  color: #29a9e1;
+}
+
+.intro-text{
+  margin-top: 20px;
+  font-size: 1.2em;
+}
+
+.img-web{
+  margin: 10px auto;
+  display: block;
+}
+
+
+.contacto{
+  margin-top: 100px;
+  font-size: 1.4em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (min-width: 768px) {
   /* show 3 items */
   .carousel-inner .active,
