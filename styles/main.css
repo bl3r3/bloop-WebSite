@@ -1,16 +1,14 @@
 @font-face{
-font-family: "BebasKai";
-src: url("fonts/BebasKai.ttf");
+  font-family: 'Bebas';
+  src: url( ../fonts/bebas.ttf);
 }
-
 
 body{
   background: #030819;
   color: white;
   margin: 0 auto;
   padding: 0;
-  font-family: ;
-
+  font-family: Bebas, sans-serif;
 }
 
 hr{
@@ -20,6 +18,8 @@ hr{
 .title-section{
   text-align: center;
   font-size: 3em;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .color-blue{
@@ -36,7 +36,46 @@ hr{
   color: white;
 }
 
+.background1{
+  background-image: url("../assets/PNG/Curva1.png");
+  background-repeat: no-repeat; 
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 115vh;
+}
 
+.background2{
+  background-image: url("../assets/PNG/Division.png");
+  background-repeat: no-repeat; 
+  background-size: cover;
+  background-position: center;
+  width: auto;
+  height: 20vh;
+}
+
+.background3{
+  background-image: url("../assets/PNG/Curva3.png");
+  background-repeat: no-repeat; 
+  background-size: cover;
+  background-position: center;
+  width: auto;
+  height: 40vh;
+}
+
+.background4{
+  background-image: url("../assets/PNG/Curva4.png");
+  background-repeat: no-repeat; 
+  background-size: cover;
+  background-position: center;
+  width: auto;
+  height: 60vh;
+}
+
+
+#op{
+  opacity: 1;
+}
 
 .intro-header{
   margin-top: 150px;
@@ -58,10 +97,31 @@ hr{
 }
 
 
+
+
+
+/*CONOCENOS*/
+
+
 .contacto{
-  margin-top: 100px;
-  font-size: 1.4em;
+  margin-top: 140px;
+  font-size: 1.5em;
 }
+
+
+/*COMO FUNCIONA*/
+
+.como-funciona{
+  font-size: 1.5em;
+  justify-content: center;
+  text-align: center;
+}
+
+.video-ref{
+  margin-top: 60px;
+  margin-bottom: 70px;
+}
+
 
 
 /*SERVICIOS*/
@@ -90,19 +150,69 @@ hr{
 
 /*SERVICIOS*/
 
+
+.ser{
+  margin-top: 10px;
+}
+
+
+
+
+.owl-prev {
+    width: 15px;
+    height: auto;
+    position: absolute;
+    top: 40%;
+    margin-left: -20px;
+    display: block;
+    border:0px solid black;
+}
+
+.owl-next {
+    width: 15px;
+    height: auto;
+    position: absolute;
+    top: 40%;
+    right: -25px;
+    display: block !important;
+    border:0px solid white;
+     outline-style: unset;
+     -webkit-appearance: none;
+}
+.owl-prev i, .owl-next i {
+  transform : scale(2);
+  outline: unset;
+  -webkit-appearance: none;
+}
+
+i:focus {
+  outline: none;
+  outline-offset: 4px;
+  background: #ffa;
+}
+
+
+/*Gallery*/
+
+.gallery{
+  margin-bottom: 120px;
+}
+
 /*BLOG*/
 
 .blog{
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 15px;
-  grid-auto-rows: minmax(100px, auto)
+
 }
  .post{
   text-align: center;
   justify-content: center;
  }
 
+
+.blog-title{
+  margin-top: 60px;
+}
 
 
 
@@ -129,7 +239,9 @@ a:hover{
   text-decoration: none;
   color: white;
 }
-
+.cont{
+  margin-top: 0px;
+}
 
 
 
@@ -139,7 +251,27 @@ li.menu-footer{
   text-decoration: none;
 }
 
+/*More Info*/
 
+.more-info{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+.solicitud{
+  font-size: 2em;
+  text-align: center;
+  padding-left: 40px;
+}
+
+.boton-more{
+  background-color:#29a9e1;
+  border-radius: 45px;
+  width: 200px;
+  height: auto;
+  font-size: 1.3em;
+}
 
 
 

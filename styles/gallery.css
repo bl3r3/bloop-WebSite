@@ -1,0 +1,289 @@
+.instafeed {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.instafeed .media {
+  align-items: center;
+  display: inline-flex;
+  justify-content: center;
+  margin: 0 7px 7px;
+}
+.instafeed .media a.link-carousel,
+.instafeed .media a.link-image,
+.instafeed .media a.link-video {
+  overflow: hidden;
+  margin: 0;
+  position: relative;
+  z-index: 1;
+  width: 150px;
+  transition: all 200ms ease-in-out;
+}
+@media only screen and (min-width: 768px) {
+  .instafeed .media a.link-carousel,
+  .instafeed .media a.link-image,
+  .instafeed .media a.link-video {
+    margin: 0;
+    width: 300px;
+  }
+}
+.instafeed .media a.link-carousel img,
+.instafeed .media a.link-image img,
+.instafeed .media a.link-video img {
+  display: block;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: 50% 50%;
+  object-position: 50% 50%;
+  height: 200px;
+  width: 100%;
+}
+@media only screen and (min-width: 768px) {
+  .instafeed .media a.link-carousel img,
+  .instafeed .media a.link-image img,
+  .instafeed .media a.link-video img {
+    height: 200px;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    transition: -webkit-transform 100ms ease-in-out;
+    transition: transform 100ms ease-in-out;
+    transition: transform 100ms ease-in-out, -webkit-transform 100ms ease-in-out;
+  }
+}
+.instafeed .media a.link-carousel .item-overlay,
+.instafeed .media a.link-image .item-overlay,
+.instafeed .media a.link-video .item-overlay {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  display: flex;
+  font-size: 0.9em;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: all 200ms ease-in-out;
+  z-index: 50;
+}
+.instafeed .media a.link-carousel .item-overlay .item-content .item-counters,
+.instafeed
+  .media
+  a.link-carousel
+  .item-overlay
+  .item-content
+  .item-counters
+  .item-likes-count,
+.instafeed
+  .media
+  a.link-carousel
+  .item-overlay
+  .item-content
+  .item-counters
+  .item-comments-count,
+.instafeed .media a.link-image .item-overlay .item-content .item-counters,
+.instafeed
+  .media
+  a.link-image
+  .item-overlay
+  .item-content
+  .item-counters
+  .item-likes-count,
+.instafeed
+  .media
+  a.link-image
+  .item-overlay
+  .item-content
+  .item-counters
+  .item-comments-count,
+.instafeed .media a.link-video .item-overlay .item-content .item-counters,
+.instafeed
+  .media
+  a.link-video
+  .item-overlay
+  .item-content
+  .item-counters
+  .item-likes-count,
+.instafeed
+  .media
+  a.link-video
+  .item-overlay
+  .item-content
+  .item-counters
+  .item-comments-count {
+  fill: currentColor;
+  align-items: center;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+.instafeed
+  .media
+  a.link-carousel
+  .item-overlay
+  .item-content
+  .item-counters
+  .item-likes-count,
+.instafeed
+  .media
+  a.link-image
+  .item-overlay
+  .item-content
+  .item-counters
+  .item-likes-count,
+.instafeed
+  .media
+  a.link-video
+  .item-overlay
+  .item-content
+  .item-counters
+  .item-likes-count {
+  display: inline-flex;
+  padding: 0 5px;
+}
+.instafeed
+  .media
+  a.link-carousel
+  .item-overlay
+  .item-content
+  .item-counters
+  .item-likes-count
+  svg,
+.instafeed
+  .media
+  a.link-image
+  .item-overlay
+  .item-content
+  .item-counters
+  .item-likes-count
+  svg,
+.instafeed
+  .media
+  a.link-video
+  .item-overlay
+  .item-content
+  .item-counters
+  .item-likes-count
+  svg {
+  display: block;
+  width: 24px;
+  height: 21px;
+  margin-right: 3px;
+}
+.instafeed
+  .media
+  a.link-carousel
+  .item-overlay
+  .item-content
+  .item-counters
+  .item-comments-count,
+.instafeed
+  .media
+  a.link-image
+  .item-overlay
+  .item-content
+  .item-counters
+  .item-comments-count,
+.instafeed
+  .media
+  a.link-video
+  .item-overlay
+  .item-content
+  .item-counters
+  .item-comments-count {
+  display: inline-flex;
+  padding: 0 5px;
+}
+.instafeed
+  .media
+  a.link-carousel
+  .item-overlay
+  .item-content
+  .item-counters
+  .item-comments-count
+  svg,
+.instafeed
+  .media
+  a.link-image
+  .item-overlay
+  .item-content
+  .item-counters
+  .item-comments-count
+  svg,
+.instafeed
+  .media
+  a.link-video
+  .item-overlay
+  .item-content
+  .item-counters
+  .item-comments-count
+  svg {
+  display: block;
+  width: 21.19px;
+  height: 21px;
+  margin-right: 3px;
+}
+.instafeed .media a.link-carousel .item-overlay .item-content .item-text,
+.instafeed .media a.link-image .item-overlay .item-content .item-text,
+.instafeed .media a.link-video .item-overlay .item-content .item-text {
+  line-height: 1.5;
+  padding: 1em;
+}
+.instafeed .media a.link-carousel:hover img,
+.instafeed .media a.link-image:hover img,
+.instafeed .media a.link-video:hover img {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: -webkit-transform 100ms ease-in-out;
+  transition: transform 100ms ease-in-out;
+  transition: transform 100ms ease-in-out, -webkit-transform 100ms ease-in-out;
+}
+@media only screen and (min-width: 768px) {
+  .instafeed .media a.link-carousel:hover .item-overlay,
+  .instafeed .media a.link-image:hover .item-overlay,
+  .instafeed .media a.link-video:hover .item-overlay {
+    opacity: 1;
+    transition: all 200ms ease-in-out;
+  }
+}
+.instafeed .media a.link-video:after {
+  content: " ";
+  background-image: url("https://cdn.shopify.com/s/files/1/1250/3061/files/video-icon.svg");
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 19px;
+  height: 12px;
+  background-size: 100% auto;
+  z-index: 10;
+}
+@media only screen and (min-width: 768px) {
+  .instafeed .media a.link-video:after {
+    width: 33px;
+    height: 23.13px;
+    background-size: initial;
+  }
+}
+
+.template-index .multimedia-1-column .button-bottom {
+  text-align: center;
+  padding: 1em 0;
+}
+@media only screen and (min-width: 768px) {
+  .template-index .multimedia-1-column .button-bottom {
+    padding: 2em 0;
+  }
+}
+.template-index .instagram-gallery .button-bottom {
+  text-align: center;
+  padding: 1em 0 2em;
+}
+@media only screen and (min-width: 768px) {
+  .template-index .instagram-gallery .button-bottom {
+    padding: 2em 0 4em;
+  }
+}
