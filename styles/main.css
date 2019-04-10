@@ -77,6 +77,9 @@ hr{
   opacity: 1;
 }
 
+
+/*HEADER*/
+
 .intro-header{
   margin-top: 150px;
 }
@@ -88,7 +91,7 @@ hr{
 
 .intro-text{
   margin-top: 20px;
-  font-size: 1.2em;
+  font-size: 1.4em;
 }
 
 .img-web{
@@ -96,8 +99,19 @@ hr{
   display: block;
 }
 
+.intro-btn-1{
+  width: 130px;
+  height: auto;
+  border-radius: 40px;
+  color:  #030819;
+  background:  #29a9e1;
+}
 
-
+.intro-btn-1:hover{
+  color: #29a9e1;
+  transform: scale(1.2); 
+  background: #030819;
+}
 
 
 /*CONOCENOS*/
@@ -218,6 +232,11 @@ i:focus {
 
  /*BLOG*/
 
+
+
+
+
+
  /*CONTACTO*/
 
  label{
@@ -229,6 +248,30 @@ i:focus {
   border: 2px solid  #29a9e1;
   border-radius: 0; 
 }
+ .enviar{
+  width: 140px;
+  height: auto;
+  border-radius: 40px;
+  color: #030819; 
+ }
+
+ .enviar:hover{
+  background: #030819;
+  color: #29a9e1; 
+  transform: scale(1.1);
+ }
+
+
+
+
+
+
+
+
+
+
+
+
 
 a{
   color: white;
@@ -251,6 +294,14 @@ li.menu-footer{
   text-decoration: none;
 }
 
+
+
+
+
+
+
+
+
 /*More Info*/
 
 .more-info{
@@ -271,8 +322,16 @@ li.menu-footer{
   width: 200px;
   height: auto;
   font-size: 1.3em;
+  color: #030819; 
 }
 
+.boton-more:hover{
+  color: #29a9e1;
+  background:#030819;
+  transform: scale(1.2); 
+  border-color: #29a9e1;
+
+}
 
 
 
