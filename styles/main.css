@@ -367,7 +367,18 @@ li.menu-footer{
 
 
 
+@media screen and  (max-width: 768px){
+  
+  .img-intro{
+    display: none;
+  }
+  .boton-intro{
+    display: block;
+  }
 
+
+
+}
 
 
 
