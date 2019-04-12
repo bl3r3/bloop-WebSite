@@ -102,7 +102,14 @@ li.active{
 .intro{
   font-size: 4em;
   color: #29a9e1;
+  margin-top: 20%;
 }
+
+.intro-1{
+  font-size: 4em;
+  color: #29a9e1;
+}
+
 
 .intro-text{
   margin-top: 20px;
@@ -347,6 +354,20 @@ li.menu-footer{
   border-color: #29a9e1;
 
 }
+
+
+.follow-p{
+  display: inline-block; 
+  justify-content: center;
+  font-size: 2em;
+}
+
+.follow-icon{
+  width: 40px; 
+  justify-content: 
+  center;text-align: center;
+}
+
 .fa-instagram:hover{
   color: #29a9e1;
   transform: scale(1.2);
@@ -367,14 +388,100 @@ li.menu-footer{
 
 
 
+
 @media screen and  (max-width: 768px){
   
   .img-intro{
     display: none;
   }
-  .boton-intro{
-    display: block;
+ 
+ .background1{
+  background-image: none;
+ }
+
+  .video-ref{
+    display: none;
   }
+
+  .background2{
+
+ }
+
+ .title-rd{
+  font-size: 1em;
+ }
+
+
+.dd{
+  margin-top:-3px;
+}
+
+.img-contact{
+  display: none;
+}
+
+.boton-more{
+  justify-content: center;
+  text-align: center;
+}
+
+.rd-1{
+  display: none;
+}
+
+.rd1{
+  text-align: center;
+  justify-content: center;
+}
+
+.follow-p{
+  display: none;
+}
+
+.follow-icon{
+  justify-content: center;
+  text-align: center;
+}
+
+.background4{
+      background-image: url(../assets/PNG/Division.png);
+      margin-bottom: 0;
+}
+
+.cont{
+  margin-top: -80px;
+}
+
+.title-Como{ 
+ margin-top: 150px;
+  margin-bottom: 100px;
+}
+
+.contacto{
+  margin-top: 0;
+}
+
+.more{
+  display: none;
+}
+
+.intro-btn-1{
+  width: 70px;
+  height: auto;
+}
+
+.intro{
+  font-size: 4em;
+  color: #29a9e1;
+  margin-top: 30%;
+  text-align: center;
+}
+
+.intro-1{
+  font-size: 4em;
+  color: #29a9e1;
+  text-align: center;
+}
 
 
 
