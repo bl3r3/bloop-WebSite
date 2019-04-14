@@ -26,4 +26,29 @@ $(document).ready(function(){
     }
   });
 
+  $(window).scroll(function(){
+    var scroll = $(window).scrollTop();
+      if (scroll > 1) {
+        $(".navbar").css("background" , "#29a9e1");
+      }
+
+      else{
+          $(".navbar").css("background" , "transparent");   
+      }
+  })
+ 
+ 
+ $(window).scroll(function(){
+    var scroll = $(window).scrollTop();
+      if (scroll === 0) {
+        $(".navnav").removeClass("active-menu").addClass("default-menu");
+      }else {
+          $(".navnav").addClass("active-menu").removeClass("default-menu")
+      }
+  })
+
+
+ 
+
 });
+
