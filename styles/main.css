@@ -26,11 +26,14 @@ hr{
   color: #29a9e1;
 }
 
-#HOME{
-  width: 100%;
-  height: 90vh;
+.img-inicio{
+  width: 800px;
+  height: auto;
 }
 
+.inicio{
+  margin-top: 10%
+}
 
 .portada {
 
@@ -150,20 +153,27 @@ li.active{
 }
 
 .intro{
-  font-size: 4em;
+  font-size: 6em;
   color: #29a9e1;
   margin-top: 20%;
 }
 
 .intro-1{
-  font-size: 4em;
+  font-size: 6em;
   color: #29a9e1;
 }
 
+.img-intro{
+  margin-top: 5%;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+  color: white;
+}
 
 .intro-text{
   margin-top: 20px;
-  font-size: 1.4em;
+  font-size: 1.7em;
 }
 
 .img-web{
@@ -172,18 +182,45 @@ li.active{
 }
 
 .intro-btn-1{
-  width: 130px;
+ width: 170px;
   height: auto;
   border-radius: 40px;
-  color:  #030819;
   background:  #29a9e1;
+  color: #030819;
 }
 
 .intro-btn-1:hover{
-  color: #29a9e1;
-  transform: scale(1.2); 
-  background: #030819;
+  transform: scale(1.2);
 }
+
+
+
+
+.intro-btn-2{
+  width: 170px;
+  height: auto;
+  border-radius: 40px;
+  background:  rgba(41, 169, 224, 0.3);
+  margin-left: 50%;
+  color: white;
+  border: 2px solid #29a9e1;
+}
+
+.intro-btn-2:hover{
+  transform: scale(1.2); 
+
+}
+
+.rrss{
+  margin-top: 15%;
+
+}
+
+.rrss-hr{
+
+  margin-top: 30%;
+}
+
 
 
 /*CONOCENOS*/
@@ -208,6 +245,14 @@ li.active{
   margin-bottom: 70px;
 }
 
+.video{
+  font-size: 1.9em;
+}
+
+
+.fa-play-circle{
+  color: #29a9e1;
+}
 
 
 /*SERVICIOS*/
@@ -367,7 +412,9 @@ li.menu-footer{
 }
 
 
-
+.owl-item {
+  color: #29a9e1;
+}
 
 
 
@@ -472,8 +519,7 @@ li.menu-footer{
  .title-rd{
   font-size: 1em;
  }
-
-
+ 
 .dd{
   margin-top:-3px;
 }
@@ -527,10 +573,10 @@ li.menu-footer{
   display: none;
 }
 
-.intro-btn-1{
-  width: 70px;
-  height: auto;
+.owl-item {
+  color: #29a9e1;
 }
+
 
 .intro{
   font-size: 4em;
@@ -545,12 +591,23 @@ li.menu-footer{
   text-align: center;
 }
 
-.collapse{
-  background:#030819;
-  padding: 0;
-  width: 100%;
-  height: 100vh; 
+
+.intro-btn-1{
+ width: 100%;
+ justify-content: center;
+ text-align: center;
+
+
+
 }
+
+.intro-btn-2{
+  margin-top: 5%;
+  width: 100%;
+  margin-left: 0;
+}
+
+
 
 }
 
