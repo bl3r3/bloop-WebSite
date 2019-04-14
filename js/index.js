@@ -36,8 +36,19 @@ $(document).ready(function(){
           $(".navbar").css("background-color" , "#030819");   
       }
   })
- 
- 
+
+
+ $(window).scroll(function(){
+    var scroll = $(window).scrollTop();
+      if (scroll == 0) {
+        $(".navbar-collapse").css("background-color" , "#030819");
+      }
+
+      else{
+          $(".navbar-collapse").css("background-color" , "#29a9e1");   
+      }
+  })
+
 
 
  

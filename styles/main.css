@@ -618,6 +618,10 @@ textarea.form-control:focus{
 }
 
 
+ .navbar .navbar-collapse{
+  background-color: #030819;
+
+ }
 
 }
 
