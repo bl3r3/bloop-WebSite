@@ -349,10 +349,26 @@ i:focus {
 
  /*BLOG*/
 
+.modal-content{
+  border-color: none;
+    background-color:  #030819;
 
+}
 
+.modal-header{
+  background-color:  #030819;
+  border-color: #030819;
+}
 
+.close{
+  color: white;
+  text-shadow: none;
+}
 
+.close:hover{
+  color: red;
+  text-shadow: red;
+}
 
  /*CONTACTO*/
 
@@ -507,6 +523,11 @@ textarea.form-control:focus{
   color: white;
 }
 
+ .navbar .navbar-collapse{
+  background-color: transparent;
+
+ }
+
 
 @media screen and  (max-width: 768px){
   
@@ -603,7 +624,7 @@ textarea.form-control:focus{
 
 
 .intro-btn-1{
- width: 100%;
+ width: 60%;
  justify-content: center;
  text-align: center;
 
@@ -613,7 +634,7 @@ textarea.form-control:focus{
 
 .intro-btn-2{
   margin-top: 5%;
-  width: 100%;
+  width: 60%;
   margin-left: 0;
 }
 
