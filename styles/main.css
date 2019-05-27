@@ -39,8 +39,6 @@ hr{
 
 .navbar{
   height: 60px;
-  padding-left: 10%;
-  padding-right: 10%;
 }
 
 .portada {
@@ -114,12 +112,13 @@ li.active{
 
 .background1{
   position: relative;
-  background-image: url("../assets/PNG/Curva1.png");
+  background: url("../assets/PNG/Curva1.png") no-repeat center;
   background-repeat: no-repeat; 
   background-size: cover;
   background-position: center;
   width: 100%;
-  height: auto;
+  height: 900px;
+  padding-left: 0;
 }
 
 .background2{
@@ -162,13 +161,13 @@ li.active{
 }
 
 .intro{
-  font-size: 6em;
+  font-size: 5.3em;
   color: #29a9e1;
   margin-top: 20%;
 }
 
 .intro-1{
-  font-size: 6em;
+  font-size: 5.3em;
   color: #29a9e1;
 }
 
@@ -182,7 +181,7 @@ li.active{
 
 .intro-text{
   margin-top: 20px;
-  font-size: 1.7em;
+  font-size: 1.6em;
 }
 
 .img-web{
