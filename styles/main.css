@@ -543,6 +543,10 @@ textarea.form-control:focus{
     display: none;
   }
  
+.intro-text{
+  text-align: center;
+}
+
  .background1{
   background-image: none;
  }
@@ -640,12 +644,19 @@ textarea.form-control:focus{
 
 }
 
+.conocenos-rd{
+  display: none;
+}
+
 .intro-btn-2{
   margin-top: 5%;
   width: 60%;
   margin-left: 0;
 }
 
+.navbar{
+  height: auto;
+}
 
  .navbar .navbar-collapse{
   background-color: #030819;
